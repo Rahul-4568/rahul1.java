@@ -12,7 +12,11 @@ public class Swapping {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a= 20, b= 30;
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter a:");
+		int a=sc.nextint();
+		System.out.println("Enter b:");
+		int b=sc.nextint();
 		System.out.println("Before Swapping a = "+a+" b = "+b);
 		swapfn(a,b);
 	
